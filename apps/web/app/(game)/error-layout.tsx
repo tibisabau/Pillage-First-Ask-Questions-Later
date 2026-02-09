@@ -4,6 +4,10 @@ import { Skeleton } from 'app/components/ui/skeleton';
 const ErrorLayout = () => {
   return (
     <>
+      <link
+        rel="stylesheet"
+        href="/app/styles/app.css"
+      />
       <div className="h-dvh w-full flex flex-col justify-between gap-2 lg:hidden">
         <div className="flex flex-col p-2 pt-0 bg-linear-to-r from-gray-200 via-white to-gray-200">
           <div className="flex gap-6 w-full h-14 items-center">

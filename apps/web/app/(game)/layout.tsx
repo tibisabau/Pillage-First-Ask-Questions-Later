@@ -101,6 +101,10 @@ export const ErrorBoundary = () => {
 
   return (
     <main className="container mx-auto max-w-2xl p-4 flex flex-col gap-4">
+      <link
+        rel="stylesheet"
+        href="/app/styles/app.css"
+      />
       <div className="rounded-md border border-red-300 bg-red-50 p-3 text-red-900">
         <h1 className="text-lg font-semibold">{error.title}</h1>
         <p className="mt-1">
